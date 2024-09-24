@@ -1,0 +1,42 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "User",
+    "type": "object",
+    "properties": {
+      "birthday": {
+        "description": "The user's birthday",
+        "type": "string",
+        "format": "date-time"
+      },
+      "created_time": {
+        "description": "The time when the user was created",
+        "type": "string",
+        "format": "date-time"
+      },
+      "display_name": {
+        "description": "The display name of the user",
+        "type": "string"
+      },
+      "email": {
+        "description": "The user's email address",
+        "type": "string",
+        "format": "email"
+      },
+      "favorite_movie": {
+        "description": "The user's favorite movie",
+        "type": "string"
+      },
+      "photo_url": {
+        "description": "The URL of the user's profile photo",
+        "type": "string",
+        "format": "uri"
+      },
+      "uid": {
+        "description": "The unique identifier of the user",
+        "type": "string"
+      }
+    },
+    "required": ["birthday", "created_time", "display_name", "email", "uid"],
+    "additionalProperties": false
+  }
+  
