@@ -810,7 +810,7 @@ class _LoginWidgetState extends State<LoginWidget>
 
                               context.goNamedAuth('tasks', context.mounted);
                             },
-                            text: 'Log In!',
+                            text: 'Log In Now!',
                             options: FFButtonOptions(
                               width: double.infinity,
                               height: 70.0,
