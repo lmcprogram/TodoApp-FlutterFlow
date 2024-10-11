@@ -64,6 +64,14 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                     mainAxisSize: MainAxisSize.max,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
+                      Text(
+                        'Check your email for a welcome message!',
+                        style: FlutterFlowTheme.of(context).bodyMedium.override(
+                              fontFamily: 'Inter',
+                              fontSize: 20.0,
+                              letterSpacing: 0.0,
+                            ),
+                      ),
                       Row(
                         mainAxisSize: MainAxisSize.max,
                         children: [
